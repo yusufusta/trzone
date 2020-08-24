@@ -1,0 +1,19 @@
+{
+    "name": "quiec/trzone",
+    "description": "trzone is presents address information for Turkish developers.",
+    "keywords": ["address", "turkish", "turkey", "turk", "adres"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Quiec",
+            "email": "46392667+Quiec@users.noreply.github.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "autoload": {
+        "psr-4": {
+            "trzone\\": "src/trzone/"
+        },
+        "classmap": ["src/trzone/Data.json"]
+    } 
+}
